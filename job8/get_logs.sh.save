@@ -1,0 +1,12 @@
+#!/bin/bash
+
+last | wc -l > "/home/lockmage/shell-exe/job8/number_connection-$(date +%d-%m-%Y-%R).txt"
+
+mkdir -p "/home/lockmage/shell-exe/job8/Backup
+
+tar -cvf "/home/lockmage/shell-exe/job8/Backup/number_connection-$(date +%d-%m-%Y-%R).tar" /home/lockemage/shell-exe/job8/number_connection*.txt 
+
+
+
+
+
